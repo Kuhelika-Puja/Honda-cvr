@@ -1,0 +1,96 @@
+/*mobile screen*/
+@media all and (max-width: 767px){
+
+	.main-menu ul{
+		flex-direction: column;
+		text-align: center;
+		display: none;
+	}
+	.nav-ber{
+		display: flex;
+	}
+	.header_area{
+		margin-bottom: 107px;
+	}
+	.header_area::after{
+		display: none;
+	}
+	.banner_text h6{
+		width: 325px;
+		font-size: 16px;
+		padding-bottom: 0px;
+	}
+	.banner_text h1{
+		font-weight: 600;
+		font-size: 36px;
+		padding-bottom: 0px;
+	}
+	.banner_text {
+		padding-top: 0px;
+	}
+	.banner_text p{
+		font-size: 16px;
+		line-height: 24px;
+		padding-bottom: 35px;
+	}
+	.banner_image {
+		width: 321px;
+		height: 260px;
+	}
+	
+	.col-lg-6{
+		padding-top: 56px;
+	}
+	.header_area::after {
+		display: none;
+	}
+	.bike_section_area{
+	   margin-bottom: 150px;
+	   background: #FFFFFF;
+	}
+	.bike_text{
+	   display: flex;
+	   flex-direction: column;
+	   text-align: center;
+	}
+	.bike_text h1{
+	   font-weight: 600;
+		font-size: 36px;
+		line-height: 54px;
+
+	}
+	.bike_text p{
+	   font-weight: 600;
+		font-size: 14px;
+		
+		color: #E76F51;
+		
+	}
+	.bike {
+		width: 288px;
+		margin-top: 106px;
+	}
+	.bike img {
+	
+	}
+	.pt_100 {
+		padding-top: 69px;
+	}
+	.single_item{
+		margin-bottom: 17px;
+	}
+	
+	.side_padding {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.single-item2 {
+		
+		margin-bottom: 24px;
+	}
+	.title h1 {
+	width: 256px;
+	font-size: 28px;
+	margin: auto;
+    }
+}
